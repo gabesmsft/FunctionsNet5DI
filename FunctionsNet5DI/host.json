@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    },
+    "logLevel": {
+      "FunctionsNet5DI.Function1": "Information",
+      "FunctionsNet5DI.MyDependency2": "Information"
+    }
+  }
+}
